@@ -74,7 +74,14 @@
                 Admin Items
             </a>
         </div>
-
+        
+        <h6 class="mt-4">Tugas</h6>
+        <div class="list-group list-group-numbered mt-4">
+            {{-- Clonning Bootstrap --}}
+            <a href="{{ url('/clonning') }}" class="list-group-item list-group-item-action">
+                Clonning Bootstrap
+            </a>
+        </div>
     </div>
     @vite('resources/js/app.js')
 </body>
